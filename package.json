@@ -1,0 +1,17 @@
+{
+  "name": "extnsion-template",
+  "version": "1.0.0",
+  "description": "A template for google chrome extension",
+  "main": "./app/src/background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack ./app/src/background.js -o  ./app/src.o/background.js",
+    "watch": "webpack ./app/src/background.js -o ./app/src.o/background.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+}
